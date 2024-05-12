@@ -20,5 +20,6 @@ public class DemoApplication {
         user.setCity("Chandigarh");
         user.setPersonStatus("I am a java coder");
         User user1 = userRepository.save(user);
+        System.out.println(user1);
     }
 }
